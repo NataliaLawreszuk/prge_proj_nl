@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Strona-1" id="ebbQ8UE-p8Ji5xUPkMKf">
-    <mxGraphModel dx="4163" dy="2339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2773" dy="1365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,16 +17,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-2" parent="IoyO-Vrc0GX8cXbxzbew-11" style="rounded=0;whiteSpace=wrap;html=1;" value="DB" vertex="1">
-          <mxGeometry height="80" width="180" x="150" y="30" as="geometry" />
+          <mxGeometry height="80" width="180" x="150" y="60" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-6" edge="1" parent="IoyO-Vrc0GX8cXbxzbew-11" source="IoyO-Vrc0GX8cXbxzbew-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="IoyO-Vrc0GX8cXbxzbew-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-3" parent="IoyO-Vrc0GX8cXbxzbew-11" style="rounded=0;whiteSpace=wrap;html=1;" value="Geoserver" vertex="1">
-          <mxGeometry height="80" width="180" x="150" y="145" as="geometry" />
+          <mxGeometry height="80" width="180" x="150" y="255" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-4" parent="IoyO-Vrc0GX8cXbxzbew-11" style="rounded=0;whiteSpace=wrap;html=1;" value="NGINX" vertex="1">
-          <mxGeometry height="80" width="180" x="150" y="260" as="geometry" />
+          <mxGeometry height="80" width="180" x="150" y="450" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-12" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="590" width="470" x="160" y="790" as="geometry" />
@@ -38,16 +38,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-15" parent="IoyO-Vrc0GX8cXbxzbew-12" style="rounded=0;whiteSpace=wrap;html=1;" value="DB" vertex="1">
-          <mxGeometry height="80" width="180" x="150" y="30" as="geometry" />
+          <mxGeometry height="80" width="180" x="150" y="60" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-16" edge="1" parent="IoyO-Vrc0GX8cXbxzbew-12" source="IoyO-Vrc0GX8cXbxzbew-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="IoyO-Vrc0GX8cXbxzbew-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-17" parent="IoyO-Vrc0GX8cXbxzbew-12" style="rounded=0;whiteSpace=wrap;html=1;" value="Geoserver" vertex="1">
-          <mxGeometry height="80" width="180" x="150" y="145" as="geometry" />
+          <mxGeometry height="80" width="180" x="150" y="255" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-18" parent="IoyO-Vrc0GX8cXbxzbew-12" style="rounded=0;whiteSpace=wrap;html=1;" value="NGINX" vertex="1">
-          <mxGeometry height="80" width="180" x="150" y="260" as="geometry" />
+          <mxGeometry height="80" width="180" x="150" y="450" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-19" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="590" width="810" x="160" y="1430" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-22" parent="IoyO-Vrc0GX8cXbxzbew-19" style="rounded=0;whiteSpace=wrap;html=1;" value="DB" vertex="1">
-          <mxGeometry height="80" width="310.2127659574467" x="60.000638297872285" y="140" as="geometry" />
+          <mxGeometry height="80" width="310.2127659574467" x="60.000638297872285" y="100" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-23" edge="1" parent="IoyO-Vrc0GX8cXbxzbew-19" source="IoyO-Vrc0GX8cXbxzbew-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="IoyO-Vrc0GX8cXbxzbew-25">
           <mxGeometry relative="1" as="geometry" />
@@ -74,10 +74,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-25" parent="IoyO-Vrc0GX8cXbxzbew-19" style="rounded=0;whiteSpace=wrap;html=1;" value="NGINX" vertex="1">
-          <mxGeometry height="80" width="310.2127659574467" x="60.000638297872285" y="370" as="geometry" />
+          <mxGeometry height="80" width="310.2127659574467" x="60.000638297872285" y="410" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-27" parent="IoyO-Vrc0GX8cXbxzbew-19" style="rounded=0;whiteSpace=wrap;html=1;" value="rode/react app" vertex="1">
-          <mxGeometry height="80" width="310.2127659574467" x="469.99521126760555" y="370" as="geometry" />
+          <mxGeometry height="80" width="310.2127659574467" x="469.99521126760555" y="410" as="geometry" />
         </mxCell>
         <mxCell id="IoyO-Vrc0GX8cXbxzbew-35" edge="1" parent="1" source="IoyO-Vrc0GX8cXbxzbew-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="IoyO-Vrc0GX8cXbxzbew-34">
           <mxGeometry relative="1" as="geometry" />
