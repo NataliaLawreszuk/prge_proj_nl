@@ -22,21 +22,26 @@ services:
     volumes:
       - postgis-data:/var/lib/postgresql/data
 
-#  geoserver:
-#    build:
-#      context: ..
-#      dockerfile: docker/geooserver/Dockerfile
-#    image: 'geoserver_prge'
-#    container_name: 'geoserver_prge'
-#    environment:
-#      - *env-geoserver-user
-#      - *env-geoserver-password
-#    ports:
-#      - 9004:8080
+  geoserver:
+    build:
+      context: ..
+      dockerfile: docker/geooserver/Dockerfile
+    image: 'geoserver_prge'
+    container_name: 'geoserver_prge_${ENV_NAME}'
+    environment:
+      - *env-geoserver-user
+      - *env-geoserver-password
+    ports:
+      - '${GEOSERVER_PORT}:8080'
+    volumes:
+      - geoserver-data:/opt/geoserver_data
+
+# wprowadzic zmienna geoserver port i dodac do kazxego srodowiska na githubie numeracja portow ma byc taka sama jak w postgresie 902 903 904 odpowiednio  dla kazdego srodowiska i dodac w deploy.yml
 
 
 volumes:
   postgis-data:
+  geoserver-data:
 
 
 
