@@ -22,7 +22,7 @@ jobs:
           POSTGRES_PASSWORD: ${{secrets.POSTGRES_PASSWORD}}
           POSTGRES_DB: ${{secrets.POSTGRES_DB}}
           GEOSERVER_ADMIN_USER: ${{secrets.GEOSERVER_ADMIN_USER}}
-          GEOSERVER_ADMIN_PASSWORD: ${{secrets.GEOSERVER_ADMIN_USER}}
+          GEOSERVER_ADMIN_PASSWORD: ${{secrets.GEOSERVER_ADMIN_PASSWORD}}
           GEOSERVER_PORT: ${{secrets.GEOSERVER_PORT}}
           FASTAPI_PORT: ${{secrets.FASTAPI_PORT}}
 
