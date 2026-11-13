@@ -37,6 +37,9 @@ services: #definicje usług które mają tworzyć projekt
       - SKIP_DEMO_DATA=true
       - *env-geoserver-user
       - *env-geoserver-password
+      - *env-postgres-db
+      - *env-postgres-user
+      - *env-postgres-password
     ports:
       - 9004:8080
     volumes:

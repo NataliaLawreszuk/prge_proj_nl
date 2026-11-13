@@ -31,8 +31,12 @@ services:
     image: 'geoserver_prge'
     container_name: 'geoserver_prge_${ENV_NAME}'
     environment:
+      - SKIP_DEMO_DATA=true
       - *env-geoserver-user
       - *env-geoserver-password
+      - *env-postgres-db
+      - *env-postgres-user
+      - *env-postgres-password
     ports:
       - '${GEOSERVER_PORT}:8080'
     volumes:
