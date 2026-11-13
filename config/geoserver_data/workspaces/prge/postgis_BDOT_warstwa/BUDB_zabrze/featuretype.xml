@@ -1,0 +1,65 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--739c100d:1a1d4ea8528:-7ff8</id>
+  <name>BUDB_zabrze</name>
+  <nativeName>BUDB_zabrze</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--739c100d:1a1d4ea8528:-7fff</id>
+  </namespace>
+  <title>BUDB_zabrze</title>
+  <keywords>
+    <string>features</string>
+    <string>BUDB_zabrze</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;ETRF2000-PL / CS92&quot;, 
+  GEOGCS[&quot;ETRF2000-PL&quot;, 
+    DATUM[&quot;ETRF2000 Poland&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;1305&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;9702&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 19.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9993], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, -5300000.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;2180&quot;]]</nativeCRS>
+  <srs>EPSG:2180</srs>
+  <nativeBoundingBox>
+    <minx>484000.0</minx>
+    <maxx>485000.0</maxx>
+    <miny>270000.0</miny>
+    <maxy>271000.0</maxy>
+    <crs class="projected">EPSG:2180</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>18.775248820636595</minx>
+    <maxx>18.789335403573062</maxx>
+    <miny>50.29695196118174</miny>
+    <maxy>50.3059744813308</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--739c100d:1a1d4ea8528:-7ff9</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

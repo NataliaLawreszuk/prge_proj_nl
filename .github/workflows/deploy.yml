@@ -1,4 +1,6 @@
 name: deploy
+#nazwa workflow
+
 on:
   push:
     branches:
@@ -10,11 +12,11 @@ jobs:
   build-and-deploy:
     name: build & push
     runs-on:
-      - self-hosted
+      - self-hosted #zadanie wykonuje runner zainstalowany na mojej infrastrukturze, a nie maszyna udostępniona przez GitHub
     environment: ${{github.ref_name}}
     steps:
       - uses: actions/checkout@v3
-      - name: uruchom środowisk docker-compose
+      - name: uruchom środowisko docker-compose
         env:
           ENV_NAME: ${{github.ref_name}}
           POSTGRES_PORT: ${{secrets.POSTGRES_PORT}}

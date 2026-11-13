@@ -1,0 +1,16 @@
+<layer>
+  <name>BUDB_zabrze</name>
+  <id>LayerInfoImpl--739c100d:1a1d4ea8528:-7ff7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--47a4ad43:1a1d4a80daf:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--739c100d:1a1d4ea8528:-7ff8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-11-13 12:49:07.584 UTC</dateCreated>
+</layer>
