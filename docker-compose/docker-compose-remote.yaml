@@ -27,7 +27,7 @@ services:
   geoserver:
     build:
       context: ..
-      dockerfile: docker/geooserver/Dockerfile
+      dockerfile: ../docker/geoserver/Dockerfile
     image: 'geoserver_prge'
     container_name: 'geoserver_prge_${ENV_NAME}'
     environment:
@@ -36,7 +36,7 @@ services:
     ports:
       - '${GEOSERVER_PORT}:8080'
     volumes:
-      - geoserver-data:/opt/geoserver_data
+      - ../config/geoserver_data:/opt/geoserver_data
 
   fastapi:
     build:
