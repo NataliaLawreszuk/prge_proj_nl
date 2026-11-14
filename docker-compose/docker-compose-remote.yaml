@@ -40,7 +40,7 @@ services:
     ports:
       - '${GEOSERVER_PORT}:8080'
     volumes:
-      - /Users/admin/PycharmProjects/runner-work/geoserver-data/${ENV_NAME}:/opt/geoserver_data
+      - geoserver-data:/opt/geoserver_data
 
   fastapi:
     build:
